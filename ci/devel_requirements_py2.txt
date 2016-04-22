@@ -1,0 +1,28 @@
+channels:
+  - conda-forge
+  - defaults
+requirements:
+  # System stuff
+  - juypter=1.0.0
+  - sphinx>=1.2
+  - sphinx_bootstrap_theme
+  - numpydoc
+  - PIL
+  # Numerics
+  - numpy
+  - scipy
+  - pandas
+  - xarray
+  - dask
+  - bottleneck
+  - statsmodels
+  # spatial libs
+  - gdal
+  - shapely
+  - fiona
+  - rasterio
+  - geos
+  # plotting
+  - matplotlib
+  - seaborn
+  - cartopy
